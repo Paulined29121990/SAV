@@ -1,0 +1,10 @@
+[theme]
+primaryColor = "#D4AF37"        # Or (Gold)
+backgroundColor = "#ffffffff"     # Blanc cassé/crème luxe
+secondaryBackgroundColor = "#f5eed7"  # Beige doux
+textColor = "#2b2825ff"           # Gris anthracite élégant
+font = "serif"                  # Look raffiné (Georgia, Garamond selon système)
+
+
+[client]
+toolbarMode = "minimal"  # Retire les boutons de dev en haut à droite
