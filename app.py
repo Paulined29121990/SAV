@@ -447,8 +447,6 @@ if st.session_state["procedure"] == "retour":
             PINACLE 100<br>
             Tout colis envoyé à une autre adresse sera automatiquement refusé.<br><br>
 
-            Espérant ainsi vous donner satisfaction,<br>
-            Cordialement.
         </div>
     </div>
     """
