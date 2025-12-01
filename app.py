@@ -354,7 +354,7 @@ if st.session_state["procedure"] == "mise_taille":
             <strong>PINACLE 100</strong>  
             (tout envoi ailleurs sera refusé).<br><br>
 
-            Nous restons à votre entière disposition pour toute assistance complémentaire.
+            
         </div>
     </div>
     """
