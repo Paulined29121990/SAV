@@ -1164,7 +1164,7 @@ if st.session_state["procedure"] == "contact_fr":
 
             Pour nous contacter, il vous suffit d’envoyer un email à l’adresse suivante :<br><br>
 
-            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr/a><br><br>
+            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
 
             Merci de préciser si possible :  <br>
             • votre nom et prénom<br>
