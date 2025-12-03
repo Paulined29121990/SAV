@@ -1160,7 +1160,7 @@ if st.session_state["procedure"] == "contact_fr":
 
         <div class="lux-text">
             Notre équipe se tient à votre disposition pour répondre à toutes vos questions  
-            concernant le suivi de votre dossier chez nous, un suivi de commande, une garantie ou toute autre demande.<br><br>
+            concernant le suivi de votre dossier chez nous, une garantie ou toute autre demande.<br><br>
 
             Pour nous contacter, il vous suffit d’envoyer un email à l’adresse suivante :<br><br>
 
@@ -1224,7 +1224,7 @@ if st.session_state["procedure"] == "contact_en":
 
         <div class="lux-text">
             Our team is available to assist you with any questions regarding 
-            the follow-up of your case with us, an order, warranty information or any other enquiry.<br><br>
+            the follow-up of your case with us, warranty information or any other enquiry.<br><br>
 
             To contact us:<br>
             💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
@@ -1286,7 +1286,7 @@ if st.session_state["procedure"] == "contact_es":
 
         <div class="lux-text">
             Nuestro equipo está disponible para ayudarle con cualquier pregunta 
-            sobre el seguimiento de su expediente con nosotros, un pedido, 
+            sobre el seguimiento de su expediente con nosotros,  
             la información de garantía o cualquier otra consulta.<br><br>
 
             Para escribirnos:<br>
@@ -1348,7 +1348,7 @@ if st.session_state["procedure"] == "contact_de":
 
         <div class="lux-text">
             Unser Team steht Ihnen zur Verfügung, um Ihnen bei allen Fragen zum 
-            Fortschritt Ihres Vorgangs bei uns, zu einer Bestellung, zu Garantieinformationen
+            Fortschritt Ihres Vorgangs bei uns, zu Garantieinformationen
              oder zu sonstigen Anliegen weiterzuhelfen.<br><br>
 
             Kontakt per E-Mail:<br>
