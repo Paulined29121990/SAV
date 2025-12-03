@@ -1160,16 +1160,15 @@ if st.session_state["procedure"] == "contact_fr":
 
         <div class="lux-text">
             Notre équipe se tient à votre disposition pour répondre à toutes vos questions  
-            concernant votre bijou, un suivi de commande, une garantie ou toute autre demande.<br><br>
+            concernant le suivi de votre dossier chez nous, un suivi de commande, une garantie ou toute autre demande.<br><br>
 
             Pour nous contacter, il vous suffit d’envoyer un email à l’adresse suivante :<br><br>
 
-            💌 <a class="lux-link" href="mailto:sav@diamanta.fr">sav@diamanta.fr</a><br><br>
+            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr/a><br><br>
 
             Merci de préciser si possible :  <br>
             • votre nom et prénom<br>
-            • la référence ou une photo du bijou<br>
-            • votre numéro de commande (si disponible)<br><br>
+            • la référence ou une photo du bijou<br><br>
 
             Notre équipe reviendra vers vous dans les plus brefs délais.<br><br>
             Nous vous remercions pour votre confiance.
@@ -1224,16 +1223,15 @@ if st.session_state["procedure"] == "contact_en":
         <div class="lux-title">📨 Contact Customer Service</div>
 
         <div class="lux-text">
-            Our team is available to assist you with any questions regarding  
-            your jewelry, an order, warranty information or any other enquiry.<br><br>
+            Our team is available to assist you with any questions regarding 
+            the follow-up of your case with us, an order, warranty information or any other enquiry.<br><br>
 
             To contact us:<br>
-            💌 <a class="lux-link" href="mailto:sav@diamanta.fr">sav@diamanta.fr</a><br><br>
+            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
 
             Please include, if possible:<br>
             • your full name<br>
-            • the jewelry reference or a photo<br>
-            • your order number (if available)<br><br>
+            • the jewelry reference or a photo<br><br>
 
             We will get back to you as soon as possible.<br>
             Thank you for your trust.
@@ -1287,16 +1285,16 @@ if st.session_state["procedure"] == "contact_es":
         <div class="lux-title">📨 Contactar al Servicio de Atención al Cliente</div>
 
         <div class="lux-text">
-            Nuestro equipo está a su disposición para ayudarle con cualquier consulta  
-            sobre su joya, un pedido, la garantía u otra solicitud.<br><br>
+            Nuestro equipo está disponible para ayudarle con cualquier pregunta 
+            sobre el seguimiento de su expediente con nosotros, un pedido, 
+            la información de garantía o cualquier otra consulta.<br><br>
 
             Para escribirnos:<br>
-            💌 <a class="lux-link" href="mailto:sav@diamanta.fr">sav@diamanta.fr</a><br><br>
+            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
 
             Por favor, indique si es posible:<br>
             • su nombre y apellidos<br>
-            • la referencia o una foto de la joya<br>
-            • el número de pedido (si lo tiene)<br><br>
+            • la referencia o una foto de la joya<br><br>
 
             Le responderemos lo antes posible.<br>
             Gracias por su confianza.
@@ -1349,16 +1347,16 @@ if st.session_state["procedure"] == "contact_de":
         <div class="lux-title">📨 Kundenservice Kontaktieren</div>
 
         <div class="lux-text">
-            Unser Team steht Ihnen gerne zur Verfügung, um Ihre Fragen bezüglich  
-            Ihres Schmucks, einer Bestellung, der Garantie oder anderer Anliegen zu beantworten.<br><br>
+            Unser Team steht Ihnen zur Verfügung, um Ihnen bei allen Fragen zum 
+            Fortschritt Ihres Vorgangs bei uns, zu einer Bestellung, zu Garantieinformationen
+             oder zu sonstigen Anliegen weiterzuhelfen.<br><br>
 
             Kontakt per E-Mail:<br>
-            💌 <a class="lux-link" href="mailto:sav@diamanta.fr">sav@diamanta.fr</a><br><br>
+            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
 
             Bitte geben Sie nach Möglichkeit an:<br>
             • Ihren vollständigen Namen<br>
-            • die Schmuckreferenz oder ein Foto<br>
-            • Ihre Bestellnummer (falls vorhanden)<br><br>
+            • die Schmuckreferenz oder ein Foto<br><br>
 
             Wir melden uns schnellstmöglich bei Ihnen.<br>
             Vielen Dank für Ihr Vertrauen.
