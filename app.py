@@ -520,7 +520,7 @@ if st.session_state["procedure"] == "resize_en":
             A fixed <strong>€50 estimate</strong> will automatically apply.<br><br>
 
             📄 Return form:  
-            <a class="lux-link" href="https://www.kassel.fr/service-apres-vente/bijoux/bijoux-or.html" target="_blank">
+            <a class="lux-link" href="https://form.typeform.com/to/c7QAwaNU?typeform-source=kassel.typeform.com" target="_blank">
                 Click here to access the form
             </a><br><br>
 
@@ -599,7 +599,7 @@ if st.session_state["procedure"] == "return_en":
             a verification by our <strong>KASSEL customer service</strong> appears necessary.<br><br>
 
             Please fill out our return form on the website:<br>
-            <a class="lux-link" href="https://www.kassel.fr/service-apres-vente/bijoux/bijoux-or.html" target="_blank">
+            <a class="lux-link" href="https://form.typeform.com/to/c7QAwaNU?typeform-source=kassel.typeform.com" target="_blank">
                 Click here to access the form
             </a><br><br>
 
@@ -655,7 +655,7 @@ if st.session_state["procedure"] == "resize_es":
             Se aplicará automáticamente un <strong>presupuesto fijo de 50€</strong>.<br><br>
 
             📄 Formulario de devolución:<br>
-            <a class="lux-link" href="https://www.kassel.fr/service-apres-vente/bijoux/bijoux-or.html" target="_blank">
+            <a class="lux-link" href="https://form.typeform.com/to/dzxwzbLD?typeform-source=kassel.typeform.com" target="_blank">
                 Haga clic aquí para acceder al formulario
             </a><br><br>
 
@@ -700,7 +700,7 @@ if st.session_state["procedure"] == "return_es":
             <strong>Servicio de Atención al Cliente KASSEL</strong>.<br><br>
 
             Le invitamos a completar el formulario de devolución disponible en nuestra página web:<br>
-            <a class="lux-link" href="https://www.kassel.fr/service-apres-vente/bijoux/bijoux-or.html" target="_blank">
+            <a class="lux-link" href="https://form.typeform.com/to/dzxwzbLD?typeform-source=kassel.typeform.com" target="_blank">
                 Haga clic aquí para acceder al formulario
             </a><br><br>
 
@@ -756,7 +756,7 @@ if st.session_state["procedure"] == "resize_de":
             Ein <strong>Fixpreis von 50€</strong> wird automatisch berechnet.<br><br>
 
             📄 Rücksendeformular:<br>
-            <a class="lux-link" href="https://www.kassel.fr/service-apres-vente/bijoux/bijoux-or.html" target="_blank">
+            <a class="lux-link" href="https://form.typeform.com/to/igbHcfzE?typeform-source=kassel.typeform.com" target="_blank">
                 Hier klicken, um zum Formular zu gelangen
             </a><br><br>
 
@@ -801,7 +801,7 @@ if st.session_state["procedure"] == "return_de":
             <strong>KASSEL Kundendienst</strong> erforderlich.<br><br>
 
             Bitte füllen Sie das Rücksendeformular auf unserer Website aus:<br>
-            <a class="lux-link" href="https://www.kassel.fr/service-apres-vente/bijoux/bijoux-or.html" target="_blank">
+            <a class="lux-link" href="https://form.typeform.com/to/igbHcfzE?typeform-source=kassel.typeform.com" target="_blank">
                 Hier zum Formular
             </a><br><br>
 
