@@ -154,7 +154,7 @@ st.session_state.setdefault("procedure", None)
 
 if st.session_state["langue"] == "fr":
     st.markdown("")
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         if st.button("Mise à taille", key="fr_option1"):
@@ -162,7 +162,7 @@ if st.session_state["langue"] == "fr":
 
 
     with col2:
-        if st.button("Demande de retour", key="fr_option2"):
+        if st.button("Demande de réparation", key="fr_option2"):
             st.session_state["procedure"] = "retour"
         
     with col3:
@@ -170,73 +170,62 @@ if st.session_state["langue"] == "fr":
             st.session_state["procedure"] = "certificat_fr"
 
 
-    with col4:
-        if st.button("Contacter le service client", key="fr_option4"):
-            st.session_state["procedure"] = "contact_fr"
 
 
 
 elif st.session_state["langue"] == "en":
     st.markdown("")
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         if st.button("Resizing", key="en_option1"):
             st.session_state["procedure"] = "resize_en"
 
     with col2:
-        if st.button("Return request", key="en_option2"):
+        if st.button("Repair request", key="en_option2"):
             st.session_state["procedure"] = "return_en"
 
     with col3:
         if st.button("Certificate", key="en_option3"):
             st.session_state["procedure"] = "certificat_en"
 
-    with col4:
-        if st.button("Contact customer service", key="en_option4"):
-            st.session_state["procedure"] = "contact_en"
 
 elif st.session_state["langue"] == "es":
     st.markdown("### ¿Qué desea hacer?")
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         if st.button("Ajuste de tamaño", key="es_option1"):
             st.session_state["procedure"] = "resize_es"
 
     with col2:
-        if st.button("Solicitud de devolución", key="es_option2"):
+        if st.button("Solicitud de reparación", key="es_option2"):
             st.session_state["procedure"] = "return_es"
 
     with col3:
         if st.button("Certificado", key="es_option3"):
             st.session_state["procedure"] = "certificat_es"
 
-    with col4:
-        if st.button("Contactar servicio al cliente", key="es_option4"):
-            st.session_state["procedure"] = "contact_es"
+
 
 
 
 elif st.session_state["langue"] == "de":
     st.markdown("")
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         if st.button("Größenanpassung", key="de_option1"):
             st.session_state["procedure"] = "resize_de"
 
     with col2:
-        if st.button("Rücksendung", key="de_option2"):
+        if st.button("Reparaturanfrage", key="de_option2"):
             st.session_state["procedure"] = "return_de"
 
     with col3:
         if st.button("Zertifikat", key="de_option3"):
             st.session_state["procedure"] = "certificat_de"
 
-    with col4:
-        if st.button("Kundendienst kontaktieren", key="de_option4"):
-            st.session_state["procedure"] = "contact_de"
 
 
 # ------------------------------
@@ -1111,257 +1100,3 @@ if st.session_state["procedure"] == "certificat_de":
     """
 
     components.html(html_certificat_de, height=550, scrolling=True)
-
-
-if st.session_state["procedure"] == "contact_fr":
-
-    html_contact = """
-    <style>
-    .lux-box {
-        border: 1.5px solid #d7c27a;
-        border-radius: 12px;
-        padding: 28px;
-        background: linear-gradient(145deg, #fbfbf9, #ffffff);
-        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-        margin-top: 30px;
-        margin-bottom: 20px;
-        font-family: Georgia, serif;
-    }
-
-    .lux-title {
-        font-size: 24px;
-        font-weight: 700;
-        color: #b5983a;
-        text-align: center;
-        margin-bottom: 12px;
-        letter-spacing: 1px;
-    }
-
-    .lux-text {
-        font-size: 17px;
-        color: #444;
-        line-height: 1.7;
-        padding-top: 10px;
-        text-align: center;
-    }
-
-    .lux-link {
-        color: #b5983a;
-        font-weight: 600;
-        text-decoration: none;
-    }
-    .lux-link:hover {
-        text-decoration: underline;
-    }
-    </style>
-
-    <div class="lux-box">
-        <div class="lux-title">📨 Contacter notre Service Client</div>
-
-        <div class="lux-text">
-            Notre équipe se tient à votre disposition pour répondre à toutes vos questions  
-            concernant le suivi de votre dossier chez nous, une garantie ou toute autre demande.<br><br>
-
-            Pour nous contacter, il vous suffit d’envoyer un email à l’adresse suivante :<br><br>
-
-            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
-
-            Merci de préciser si possible :  <br>
-            • votre nom et prénom<br>
-            • la référence ou une photo du bijou<br><br>
-
-            Notre équipe reviendra vers vous dans les plus brefs délais.<br><br>
-            Nous vous remercions pour votre confiance.
-        </div>
-    </div>
-    """
-
-    components.html(html_contact, height=550, scrolling=True)
-
-
-
-
-if st.session_state["procedure"] == "contact_en":
-
-    html_contact_en = """
-    <style>
-    .lux-box {
-        border: 1.5px solid #d7c27a;
-        border-radius: 12px;
-        padding: 28px;
-        background: linear-gradient(145deg, #fbfbf9, #ffffff);
-        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-        margin-top: 30px;
-        margin-bottom: 20px;
-        font-family: Georgia, serif;
-    }
-    .lux-title {
-        font-size: 24px;
-        font-weight: 700;
-        color: #b5983a;
-        text-align: center;
-        margin-bottom: 12px;
-    }
-    .lux-text {
-        font-size: 17px;
-        color: #444;
-        line-height: 1.7;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .lux-link {
-        color: #b5983a;
-        font-weight: 600;
-        text-decoration: none;
-    }
-    .lux-link:hover {
-        text-decoration: underline;
-    }
-    </style>
-
-    <div class="lux-box">
-        <div class="lux-title">📨 Contact Customer Service</div>
-
-        <div class="lux-text">
-            Our team is available to assist you with any questions regarding 
-            the follow-up of your case with us, warranty information or any other enquiry.<br><br>
-
-            To contact us:<br>
-            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
-
-            Please include, if possible:<br>
-            • your full name<br>
-            • the jewelry reference or a photo<br><br>
-
-            We will get back to you as soon as possible.<br>
-            Thank you for your trust.
-        </div>
-    </div>
-    """
-
-    components.html(html_contact_en, height=520, scrolling=True)
-
-
-
-if st.session_state["procedure"] == "contact_es":
-
-    html_contact_es = """
-    <style>
-    .lux-box {
-        border: 1.5px solid #d7c27a;
-        border-radius: 12px;
-        padding: 28px;
-        background: linear-gradient(145deg, #fbfbf9, #ffffff);
-        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-        margin-top: 30px;
-        margin-bottom: 20px;
-        font-family: Georgia, serif;
-    }
-    .lux-title {
-        font-size: 24px;
-        font-weight: 700;
-        color: #b5983a;
-        text-align: center;
-        margin-bottom: 12px;
-    }
-    .lux-text {
-        font-size: 17px;
-        color: #444;
-        line-height: 1.7;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .lux-link {
-        color: #b5983a;
-        font-weight: 600;
-        text-decoration: none;
-    }
-    .lux-link:hover {
-        text-decoration: underline;
-    }
-    </style>
-
-    <div class="lux-box">
-        <div class="lux-title">📨 Contactar al Servicio de Atención al Cliente</div>
-
-        <div class="lux-text">
-            Nuestro equipo está disponible para ayudarle con cualquier pregunta 
-            sobre el seguimiento de su expediente con nosotros,  
-            la información de garantía o cualquier otra consulta.<br><br>
-
-            Para escribirnos:<br>
-            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
-
-            Por favor, indique si es posible:<br>
-            • su nombre y apellidos<br>
-            • la referencia o una foto de la joya<br><br>
-
-            Le responderemos lo antes posible.<br>
-            Gracias por su confianza.
-        </div>
-    </div>
-    """
-
-    components.html(html_contact_es, height=520, scrolling=True)
-
-
-if st.session_state["procedure"] == "contact_de":
-
-    html_contact_de = """
-    <style>
-    .lux-box {
-        border: 1.5px solid #d7c27a;
-        border-radius: 12px;
-        padding: 28px;
-        background: linear-gradient(145deg, #fbfbf9, #ffffff);
-        box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-        margin-top: 30px;
-        margin-bottom: 20px;
-        font-family: Georgia, serif;
-    }
-    .lux-title {
-        font-size: 24px;
-        font-weight: 700;
-        color: #b5983a;
-        text-align: center;
-        margin-bottom: 12px;
-    }
-    .lux-text {
-        font-size: 17px;
-        color: #444;
-        line-height: 1.7;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .lux-link {
-        color: #b5983a;
-        font-weight: 600;
-        text-decoration: none;
-    }
-    .lux-link:hover {
-        text-decoration: underline;
-    }
-    </style>
-
-    <div class="lux-box">
-        <div class="lux-title">📨 Kundenservice Kontaktieren</div>
-
-        <div class="lux-text">
-            Unser Team steht Ihnen zur Verfügung, um Ihnen bei allen Fragen zum 
-            Fortschritt Ihres Vorgangs bei uns, zu Garantieinformationen
-             oder zu sonstigen Anliegen weiterzuhelfen.<br><br>
-
-            Kontakt per E-Mail:<br>
-            💌 <a class="lux-link" href="mailto:contact@kassel.fr">contact@kassel.fr</a><br><br>
-
-            Bitte geben Sie nach Möglichkeit an:<br>
-            • Ihren vollständigen Namen<br>
-            • die Schmuckreferenz oder ein Foto<br><br>
-
-            Wir melden uns schnellstmöglich bei Ihnen.<br>
-            Vielen Dank für Ihr Vertrauen.
-        </div>
-    </div>
-    """
-
-    components.html(html_contact_de, height=520, scrolling=True)
