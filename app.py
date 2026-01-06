@@ -406,7 +406,7 @@ if st.session_state["procedure"] == "retour":
     </style>
 
     <div class="lux-box">
-        <div class="lux-title">📦 Demande de Retour</div>
+        <div class="lux-title">📦 Demande de Réparation</div>
         <div class="lux-subtitle">Procédure de prise en charge</div>
 
         <div class="lux-text">
