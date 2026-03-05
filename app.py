@@ -136,6 +136,7 @@ liens_certificat = {
     "OR BY DIAMANTA": "https://www.lor-by-diamanta.fr/content/8-plateforme-garantie",
     "OR ECLAT": "https://www.oreclat.fr/content/6-garantie",
     "ORO DI ORO": "https://www.orodioro.fr/content/10-ma-garantie",
+    "PARIS JOAILLERIE": "https://www.parisjoaillerie.com/content/6-garantie",
     "PARIS VENDOME": "https://parisvendome-joaillerie.fr/30-joaillerie",
     
 }
