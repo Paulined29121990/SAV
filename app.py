@@ -138,6 +138,7 @@ liens_certificat = {
     "ORO DI ORO": "https://www.orodioro.fr/content/10-ma-garantie",
     "PARIS JOAILLERIE": "https://www.parisjoaillerie.com/content/6-garantie",
     "PARIS VENDOME": "https://parisvendome-joaillerie.fr/30-joaillerie",
+    "OR'NITY": "https://www.ornity.fr/content/4-garantie",
     
 }
 
