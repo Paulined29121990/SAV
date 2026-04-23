@@ -135,10 +135,11 @@ liens_certificat = {
     "MUSE": "https://www.muse-jewels.fr/",
     "OR BY DIAMANTA": "https://www.lor-by-diamanta.fr/content/8-plateforme-garantie",
     "OR ECLAT": "https://www.oreclat.fr/content/6-garantie",
+    "OR'NITY": "https://www.ornity.fr/content/4-garantie",
     "ORO DI ORO": "https://www.orodioro.fr/content/10-ma-garantie",
     "PARIS JOAILLERIE": "https://www.parisjoaillerie.com/content/6-garantie",
     "PARIS VENDOME": "https://parisvendome-joaillerie.fr/30-joaillerie",
-    "OR'NITY": "https://www.ornity.fr/content/4-garantie",
+    
     
 }
 
