@@ -328,7 +328,7 @@ if st.session_state["procedure"] == "mise_taille":
             sur une tolérance de <strong>± deux tailles</strong> durant la période de garantie.<br><br>
 
             Au-delà de 2 tailles ou si la mise à taille n’était pas proposée (pour votre modèle ou lors de la vente) 
-            un montant de <strong>60€</strong> vous sera demandé pour une nouvelle fabrication.<br><br>
+            un montant de <strong>70€</strong> vous sera demandé pour une nouvelle fabrication.<br><br>
 
             Les modèles en <strong>zirconium</strong> ne bénéficient pas du service offert.  
             Un devis <strong>forfaitaire de 50€</strong> sera automatiquement appliqué.<br><br>
@@ -506,7 +506,7 @@ if st.session_state["procedure"] == "resize_en":
 
             Beyond this limit, or when resizing was not available  
             for your model at the time of purchase,  
-            a <strong>€60 fee</strong> will be required for a new fabrication.<br><br>
+            a <strong>€70 fee</strong> will be required for a new fabrication.<br><br>
 
             ⚠️ Rings made of <strong>zirconium</strong> are not eligible for the free resizing service.  
             A fixed <strong>€50 estimate</strong> will automatically apply.<br><br>
@@ -641,7 +641,7 @@ if st.session_state["procedure"] == "resize_es":
             dentro de una tolerancia de <strong>± dos tallas</strong> durante el período de garantía.<br><br>
 
             Si su modelo no permite el ajuste o supera ese límite,  
-            será necesario un <strong>coste de 60€</strong> para una nueva fabricación.<br><br>
+            será necesario un <strong>coste de 70€</strong> para una nueva fabricación.<br><br>
 
             ⚠️ Los modelos de <strong>circonio</strong> no incluyen este servicio gratuito.  
             Se aplicará automáticamente un <strong>presupuesto fijo de 50€</strong>.<br><br>
@@ -742,7 +742,7 @@ if st.session_state["procedure"] == "resize_de":
             innerhalb einer Toleranz von <strong>± zwei Größen</strong> während der Garantiezeit.<br><br>
 
             Wenn Ihr Modell dies nicht zulässt oder der Umfang überschritten wird,  
-            fällt eine <strong>Gebühr von 60€</strong> für eine Neuanfertigung an.<br><br>
+            fällt eine <strong>Gebühr von 70€</strong> für eine Neuanfertigung an.<br><br>
 
             ⚠️ <strong>Zirkonium-Ringe</strong> sind von diesem kostenlosen Service ausgeschlossen.  
             Ein <strong>Fixpreis von 50€</strong> wird automatisch berechnet.<br><br>
